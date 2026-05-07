@@ -1,174 +1,96 @@
-# Operational Systems Portfolio
+# Malak Hussein
 
-A modular portfolio site for **Malak Hussein** — built as a "cozy infrastructure" dashboard with a soft-skeuomorphism + watercolor aesthetic.
+**Junior ERP & Operations Associate**
 
-Stack: **React 18 · Vite · Tailwind CSS · Framer Motion · lucide-react**
+Maadi, Cairo — Available on-site & hybrid in New Cairo, Nasr City, and the New Capital
 
----
-
-## Quick start
-
-```bash
-cd portfolio
-npm install        # only the first time
-npm run dev        # dev server at http://127.0.0.1:5173/
-npm run build      # production build → dist/
-npm run preview    # serve the built dist/ locally
-```
-
-To preview from your phone over the same Wi-Fi, run dev with the host flag:
-
-```bash
-npx vite --host 0.0.0.0
-```
-
-then open `http://<your-laptop-LAN-IP>:5173/` on your phone.
++201023004315 | malak.hussein9803@gmail.com | [LinkedIn](https://www.linkedin.com/in/malak-hussein-24946a221/) | [GitHub](https://github.com/insightbymalak) | [Portfolio](https://insightbymalak.github.io/portfolio/)
 
 ---
 
-## File map (the only files you need to edit)
+## Professional Summary
 
-```
-src/
-├── data/
-│   ├── portfolioData.js   ← name, contact, skills, certs, gauges, experience, education, flow chart
-│   └── projects.json      ← every project card in the gallery (the file you edit most)
-└── components/            ← only touch if you want to redesign visuals
-```
-
-Everything else (configs, shadows, palette, animations) is set up. You add content in those two data files; the UI re-renders automatically.
+Information Systems graduate with hands-on exposure to ERP systems, SQL, Excel, and workflow automation. Experienced in supporting business process digitization, data preparation, and operational reporting. Contributed to full-stack internal systems development using Django and React.js during an active software internship. Currently deepening knowledge in Odoo customization and implementation to contribute meaningfully to ERP projects. Eager to support teams in moving from manual processes to structured, efficient digital workflows.
 
 ---
 
-## How to add a new project
+## Experience
 
-Open **`src/data/projects.json`** and add a new object to the array. Copy any existing entry as a template. Field reference:
+**Software Intern**
+Khwarizm — Software Consulting, Cairo
+*December 2025 – Present*
 
-```jsonc
-{
-  "id": "my-new-project",                    // unique slug, lowercase + dashes
-  "title": "My New Project",                 // shown as the card heading
-  "subtitle": "One-line tagline under title",
-  "date": "May 2026",                        // free-text date or range
-  "status": "done",                          // "done" | "in-progress" | "planned"
-  "erpContext": "Odoo",                      // shows as the colored corner badge
-  "coverTheme": "odoo",                      // "odoo" | "hr" | "data" | "generic" — picks the watercolor palette
-  "summary": "2–3 sentence description shown on the card.",
-  "highlights": [                            // up to 3 bullets shown on the card
-    "First key thing you built",
-    "Second key thing you built",
-    "Third key thing you built"
-  ],
-  "techStack": ["Python", "Odoo", "XML"],    // small chips at the bottom of the card
-  "tags": ["ERP", "Odoo"],                   // free-form, currently informational only
-  "appliedCerts": ["odoo-bootcamp"],         // cert ids — drives the cert filter
-  "links": {
-    "repo": "https://github.com/insightbymalak/my-repo",   // shows a "Repo" button on the card
-    "demo": "https://my-demo.vercel.app"                   // shows a "Demo" button (optional)
-  }
-}
-```
+- Replaced manual processes with automated approval workflows, improving operational clarity for internal business systems
+- Contributed to full-stack development using Django and React.js — building and testing workflow management interfaces
+- Performed data analysis and reporting using SQL and Excel; supported stakeholder system demos and process walkthroughs
+- Assisted in documenting business processes and system workflows to support team alignment and user onboarding
 
-### Where the repo link shows up
+*Technologies used: Python, Django, React.js, SQL, Excel*
 
-The card footer auto-renders a **Repo** button (linking to GitHub) whenever `links.repo` is non-empty, and a **Demo** button when `links.demo` is non-empty. Set either to `null` or remove the field to hide that button.
+---
 
-### Available `coverTheme` values
+## Education
 
-| Value | Watercolor wash | Use for |
+**Bachelor's Degree in Information Systems**
+Future University in Egypt
+*October 2021 – June 2025*
+
+---
+
+## Technical Skills
+
+**Data & Reporting**
+Microsoft Excel, Pivot Tables, VLOOKUP, Power Query, SQL (SELECT, JOIN, GROUP BY, Subqueries), Data Validation & Cleaning, Power BI (Basic Dashboards), Pandas
+
+**ERP & Business Systems**
+Odoo (Modules, Models, Views, ORM, Constraints), ERP Workflow Configuration, Business Process Documentation, CRM Workflow Support
+
+**Development & Tools**
+Python, Django, React.js, Git, Linux (Command Line), Docker (Basic Usage)
+
+**Operations & Process**
+Workflow Digitization, Business Process Mapping, Stakeholder Communication, Operational Reporting, KPI Tracking
+
+---
+
+## Projects
+
+**Odoo Real Estate Module** — *April 2026*
+Custom Odoo module developed during the Odoo Technical Bootcamp as a hands-on learning project.
+- Built property listing and sales tracking views with custom workflow stages
+- Practiced Odoo model inheritance, field types, and relational data (Many2one, One2many)
+- Applied business logic using @api.constrains to enforce pricing and offer validation rules
+
+*Stack: Python, Odoo, XML, PostgreSQL*
+Repository: https://github.com/insightbymalak/OdooWorkShop/wiki
+
+---
+
+## Certifications
+
+| Certification | Issuer | Date |
 |---|---|---|
-| `odoo` | Lilac + crystal-blue | Odoo or ERP projects |
-| `hr` | Pink + honey | Workflow / process projects |
-| `data` | Crystal-blue + lilac | Data, BI, reporting |
-| `generic` | Honey + pink + blue | Anything else |
-
-### Replacing a "Coming Soon" placeholder
-
-Two cards (`odoo-crm-flow`, `kpi-reporting-dashboard`) are marked `"status": "planned"` and labeled "Concept · Coming soon." When you actually build them:
-
-1. Edit the existing entry in place — keep the `id` if the cert filter still applies, change everything else.
-2. Set `"status": "done"` (or `"in-progress"`) and update `subtitle`, `summary`, `highlights`, `techStack`, and `links.repo`.
+| Odoo Technical Bootcamp | Odoo | April 2026 |
+| CCNA — Introduction to Networks | Cisco | March 2024 |
+| Intermediate SQL | DataCamp | 2025 |
+| Learning the OWASP Top 10 | LinkedIn Learning | 2025 |
+| Skills That Set Data Scientists Apart | LinkedIn Learning | 2025 |
+| Certificate of Completion | Google Developer Student Clubs | 2024 |
 
 ---
 
-## How to add or edit a certification (with credential link)
+## Key Competencies
 
-Open **`src/data/portfolioData.js`**, find the `certifications` array, and add an entry. Field reference:
-
-```js
-{
-  id: 'my-new-cert',                          // unique slug
-  name: 'My New Certification',               // shown as the heading
-  issuer: 'Issuer Name',                      // shown below the name
-  date: 'Month YYYY',                         // free-text
-  color: 'crystal-blue',                      // 'crystal-blue' | 'dreamy-lilac' | 'fairy-pink' | 'honey-deep'
-  link: 'https://www.credly.com/badges/xxx',  // ← paste credential URL here. Shows the verify-arrow icon.
-  appliesTo: ['my-new-project'],              // project ids — clicking this cert filters the gallery to these
-}
-```
-
-### What the `link` field does
-
-- **`link: null`** → the cert chip shows name/issuer/date only. Clicking the chip filters the project gallery (the original behavior).
-- **`link: '<url>'`** → a small ↗ icon appears in the top-right corner of the chip. Clicking the icon opens the credential page in a new tab. Clicking anywhere else on the chip still toggles the filter.
-
-Common credential link sources: **Credly**, **Coursera**, **Forage**, the issuer's own "verify" URL, or a link to a PDF you host (e.g., on GitHub).
-
-### Connecting a cert to a project
-
-The cert filter works through **`appliesTo`** (on the cert) **and** **`appliedCerts`** (on the project). Either reference works for filtering — but keep them in sync for clarity. When you add a new project that used a cert, add the project's `id` to that cert's `appliesTo` array.
-
-Example: you finish the Odoo CRM project. Update the cert:
-
-```js
-{
-  id: 'odoo-bootcamp',
-  // ...
-  appliesTo: ['odoo-real-estate', 'odoo-crm-flow'],   // ← add the new project id
-}
-```
+- ERP system support and configuration (Odoo)
+- SQL querying and data extraction for business reporting
+- Data cleaning and transformation using Excel and Power Query
+- Workflow documentation and business process mapping
+- Supporting digital transformation and system implementation projects
+- Clear communication with both technical teams and non-technical stakeholders
+- Fast learner with a practical, operationally minded approach
 
 ---
 
-## How to update the rest
+## Languages
 
-| What | Where in `portfolioData.js` |
-|---|---|
-| Name, location, title, tagline, goal statement | `identity` |
-| Email, phone, WhatsApp, LinkedIn, GitHub | `contact` |
-| University / degree | `education` |
-| Internship + future jobs (Work History section) | `experience` |
-| Skills (Operations / Tools / Code buckets, with 0–100 levels) | `skills` |
-| The 3 big radial gauges on the dashboard | `gauges` |
-| Stages in the Automation Logic flow chart | `flowChart.stages` |
-
-All of these are plain JS objects — edit, save, the dev server hot-reloads.
-
----
-
-## Build size & module count
-
-If you run `npm run build` you'll see something like *"1881 modules transformed."* That's Vite's count of every `.js` file it parsed, **mostly from `lucide-react` (~1500 icon files) and `framer-motion` (~250 internal modules)**. The actual production output is `~300 KB raw / ~95 KB gzipped` JS, which is normal for this stack. Nothing to worry about.
-
----
-
-## Deploying
-
-The site is a static SPA. Any of these work out-of-the-box after `npm run build`:
-
-- **Vercel**: import the repo on vercel.com, framework preset = Vite. No config needed.
-- **Netlify**: drag-drop the `dist/` folder, or connect the repo with build command `npm run build` and publish dir `dist`.
-- **GitHub Pages**: push `dist/` to a `gh-pages` branch (or use the `gh-pages` npm package). If hosted under a sub-path, add `base: '/repo-name/'` to `vite.config.js`.
-
----
-
-## Design system reference
-
-| Token | Hex | Where it shows |
-|---|---|---|
-| Honey Milk | `#ffe3b3` | Primary background |
-| Crystal Blue | `#86bada` | Primary action / Automation gauge |
-| Dreamy Lilac | `#9f99d1` | Secondary accents / ERP gauge |
-| Fairy Pink | `#dbaad7` | Highlights / Data gauge |
-
-Soft-skeuomorphic shadows are defined in `tailwind.config.js` under `boxShadow` (e.g. `shadow-pill`, `shadow-recess`, `shadow-panel`, `shadow-card`). The watercolor noise overlay is a `<feTurbulence>` SVG filter applied to `body::before` in `src/index.css`.
+Arabic — Native | English — Professional Working Proficiency
