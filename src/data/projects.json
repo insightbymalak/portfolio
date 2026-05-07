@@ -1,0 +1,44 @@
+[
+  {
+    "id": "odoo-real-estate",
+    "title": "Odoo Real Estate Module",
+    "subtitle": "Hands-on bootcamp project — learning Odoo modular development",
+    "date": "April 2026",
+    "status": "done",
+    "erpContext": "Odoo",
+    "coverTheme": "odoo",
+    "summary": "Built a real estate module from scratch as part of the Odoo Technical Bootcamp. This was a practical learning project focused on understanding how Odoo's ORM, models, views, and business logic work together in a real ERP module.",
+    "highlights": [
+      "Practiced Odoo model inheritance, field types, and relational data (Many2one, One2many)",
+      "Built property listing and sales tracking views with custom workflow stages",
+      "Applied business logic using @api.constrains to enforce pricing and offer rules"
+    ],
+    "techStack": ["Python", "Odoo", "XML", "PostgreSQL"],
+    "tags": ["ERP", "Odoo", "Learning Project"],
+    "appliedCerts": ["odoo-bootcamp"],
+    "links": {
+      "repo": "https://github.com/insightbymalak/OdooWorkShop/wiki",
+      "demo": null
+    }
+  },
+  {
+    "id": "kpi-reporting-dashboard",
+    "title": "KPI Reporting Dashboard",
+    "subtitle": "Concept project — currently exploring",
+    "date": "Planned",
+    "status": "planned",
+    "erpContext": "Data",
+    "coverTheme": "data",
+    "summary": "A planned reporting project to practice building an end-to-end data pipeline: pulling raw data, cleaning it with Power Query, then presenting operational KPIs in a Power BI dashboard — the kind of reporting that supports ERP and operations teams.",
+    "highlights": [
+      "Power Query ETL: cleaning and structuring raw operational data",
+      "Pandas for more complex transformations and data validation",
+      "Power BI dashboard focused on actionable KPI summaries"
+    ],
+    "techStack": ["Power BI", "Power Query", "Pandas", "SQL"],
+    "tags": ["Data", "Reporting", "Analytics"],
+    "appliedCerts": ["cls-data-analysis", "intermediate-sql"],
+    "links": { "repo": null, "demo": null }
+  }
+  
+]

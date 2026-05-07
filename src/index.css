@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  color: #3b3148;
+  background-color: #ffe3b3;
+  background-image:
+    radial-gradient(at 12% 8%, rgba(159, 153, 209, 0.32) 0px, transparent 55%),
+    radial-gradient(at 88% 6%, rgba(134, 186, 218, 0.28) 0px, transparent 55%),
+    radial-gradient(at 50% 95%, rgba(219, 170, 215, 0.30) 0px, transparent 55%),
+    radial-gradient(at 90% 80%, rgba(244, 201, 122, 0.25) 0px, transparent 50%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* watercolor noise overlay on the entire page */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95  0 0 0 0 0.85  0 0 0 0 0.7  0 0 0 0.06 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  opacity: 0.6;
+  mix-blend-mode: multiply;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* Soft-skeuomorphism utilities */
+@layer components {
+  .pill-button {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-full font-medium text-sm
+           bg-gradient-to-br from-honey-milk to-honey-deep/60
+           text-ink shadow-pill hover:shadow-panel
+           active:shadow-pill-pressed active:translate-y-px
+           transition-all;
+  }
+  .pill-button-primary {
+    @apply pill-button bg-gradient-to-br from-crystal-blue to-crystal-deep text-white;
+  }
+  .recessed-panel {
+    @apply rounded-2xl bg-honey-milk/70 shadow-recess;
+  }
+}
+
+/* line-clamp util (Tailwind 3 has it built-in but we hard-code for safety) */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* nicer scrollbars for the kanban / timeline overflow areas */
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(59, 49, 72, 0.04);
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(159, 153, 209, 0.5);
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(159, 153, 209, 0.75);
+}
+
+/* respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
