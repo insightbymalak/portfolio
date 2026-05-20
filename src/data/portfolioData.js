@@ -6,11 +6,11 @@
 export const identity = {
   name: 'Malak Hussein',
   location: 'Based in Maadi | On-site & Hybrid available in New Cairo, Nasr City, and the New Capital.',
-  title: 'Junior ERP & Operations Associate',
-  tagline: 'Helping teams move from manual processes to structured, digital workflows.',
+  title: 'ERP & Data Operations Associate',
+  tagline: 'Helping teams organize processes, improve reporting, and move manual operations into efficient digital systems.',
   goalStatement:
-    'Information Systems graduate with hands-on exposure to ERP systems, SQL, Excel, and workflow automation. I enjoy helping businesses organize their operations, improve reporting, and digitize manual processes — and I\'m currently deepening my knowledge in Odoo customization and implementation to contribute meaningfully to real ERP projects.',
-  availability: 'Open to ERP, operations, and data support roles',
+    'Information Systems graduate with experience supporting reporting, internal systems, and workflow digitization using SQL, Excel, Django, and React.js. Interested in data analysis and ERP systems, with current hands-on learning in Odoo customization and business workflows. Focused on helping teams organize processes, improve reporting, and move manual operations into more efficient digital systems.',
+  availability: 'Open to ERP, data operations, and workflow support roles',
 };
 
 export const contact = {
@@ -27,16 +27,21 @@ export const education = [
     degree: "Bachelor's Degree in Information Systems",
     period: 'Oct 2021 – June 2025',
   },
+  {
+    school: 'Data Analysis Diploma',
+    degree: 'In progress — currently enrolled',
+    period: '2025 – Present',
+  },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Honest stats — real numbers, no exaggeration
 // ─────────────────────────────────────────────────────────────────────────────
 export const stats = [
-  { value: '1',  label: 'Odoo Module Built',       note: 'Real estate module — bootcamp project' },
-  { value: '6+', label: 'Months ERP Exposure',     note: 'Odoo bootcamp + self-driven projects' },
-  { value: '6',  label: 'Certifications Earned',   note: 'CCNA, SQL, OWASP, GDSC & more' },
-  { value: '1',  label: 'Internship',               note: 'Software Intern · Khwarizm' },
+  { value: '1',  label: 'Odoo Module Built',         note: 'Real estate module — bootcamp project' },
+  { value: '6',  label: 'Certifications Earned',     note: 'CCNA, SQL, OWASP, GDSC & more' },
+  { value: '1',  label: 'Trainee Position',           note: 'Developer & Data Analysis · Khwarizm' },
+  { value: '▲',  label: 'Data Analysis Diploma',     note: 'Currently enrolled — in progress' },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -46,38 +51,32 @@ export const capabilities = [
   {
     icon: 'Settings',
     title: 'ERP Support & Configuration',
-    description:
-      'Assist with Odoo module setup, testing, and basic customization. Support implementation projects, help document processes, and coordinate between technical and business teams.',
+    description: 'Assist with Odoo module setup, testing, and basic customization for implementation projects.',
   },
   {
     icon: 'Database',
-    title: 'SQL Querying & Data Tasks',
-    description:
-      'Write SQL queries to extract, filter, and transform data. Clean and prepare datasets using Excel, Power Query, and Pandas for reporting or ERP data entry.',
+    title: 'SQL & Data Preparation',
+    description: 'Write SQL queries, clean datasets with Excel and Power Query, and prepare data for reporting or ERP entry.',
   },
   {
     icon: 'BarChart2',
     title: 'Reporting & Dashboards',
-    description:
-      'Build Excel dashboards, Pivot Table reports, and simple Power BI visuals to help teams track KPIs, monitor operational metrics, and share results with stakeholders.',
+    description: 'Build Excel dashboards and Pivot Table reports to track KPIs and share results with stakeholders.',
   },
   {
     icon: 'GitBranch',
     title: 'Workflow Digitization',
-    description:
-      'Help map and document manual business workflows, then assist in moving them toward structured digital systems — approval flows, automated steps, and clear process logic.',
+    description: 'Map manual business workflows and help move them toward structured digital approval systems.',
   },
   {
     icon: 'Users',
-    title: 'Team & Stakeholder Support',
-    description:
-      'Communicate technical concepts to non-technical users. Support demos, prepare training materials, and assist with system rollouts and user adoption.',
+    title: 'Stakeholder Support',
+    description: 'Support demos, prepare documentation, and explain system processes to non-technical users.',
   },
   {
     icon: 'FileText',
     title: 'Process Documentation',
-    description:
-      'Document business processes, system workflows, and operational procedures clearly — so teams have a reliable reference and onboarding becomes easier.',
+    description: 'Document workflows and operational procedures to support team alignment and onboarding.',
   },
 ];
 
@@ -140,36 +139,36 @@ export const skills = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const learning = [
   {
-    id: 'odoo-impl',
-    topic: 'Odoo Implementation & Customization',
+    id: 'data-diploma',
+    topic: 'Data Analysis Diploma',
     description:
-      'Studying how Odoo modules are configured and customized for real client projects — including functional setup, data migration concepts, and ERP rollout support.',
-    resources: 'Odoo docs, Technical Bootcamp, hands-on module building',
+      'Currently enrolled in a structured data analysis diploma — covering data cleaning, statistical analysis, visualization, and practical reporting workflows.',
+    resources: 'Diploma coursework, hands-on assignments',
     status: 'active',
   },
   {
     id: 'advanced-sql',
     topic: 'Advanced SQL & Database Design',
     description:
-      'Practicing more complex queries, subqueries, window functions, and thinking about how databases are structured for business reporting use cases.',
-    resources: 'DataCamp Intermediate SQL course, personal practice projects',
+      'Practicing complex queries, subqueries, and window functions through DataCamp coursework and personal reporting projects.',
+    resources: 'DataCamp Intermediate SQL, personal projects',
     status: 'active',
   },
-  // {
-  //   id: 'power-bi',
-  //   topic: 'Power BI & Business Intelligence',
-  //   description:
-  //     'Learning to build business dashboards that turn raw data into clear visuals — currently focusing on DAX basics and report layout best practices.',
-  //   resources: 'Microsoft Learn, YouTube tutorials, Excel-to-BI practice',
-  //   status: 'active',
-  // },
   {
     id: 'python-automation',
-    topic: 'Python for Business Automation',
+    topic: 'Python for Data & Automation',
     description:
-      'Using Python and Pandas to automate repetitive data tasks — cleaning spreadsheets, merging files, and preparing data for reporting or ERP uploads.',
-    resources: 'Personal projects, Odoo scripting practice, documentation',
-    status: 'ongoing',
+      'Using Python and Pandas to automate data cleaning tasks and prepare datasets for reporting or ERP uploads.',
+    resources: 'Personal projects, Pandas documentation',
+    status: 'active',
+  },
+  {
+    id: 'odoo-erp',
+    topic: 'Odoo & ERP Concepts',
+    description:
+      'Interested in Odoo customization and ERP workflows — completed a technical bootcamp and built one module. Exploring further as time allows.',
+    resources: 'Odoo Technical Bootcamp, official Odoo documentation',
+    status: 'interest',
   },
 ];
 
@@ -178,17 +177,18 @@ export const learning = [
 // ─────────────────────────────────────────────────────────────────────────────
 export const experience = [
   {
-    id: 'khwarizm-intern',
-    role: 'Software Intern',
-    company: 'Khwarizm (Software Consulting)',
+    id: 'khwarizm-trainee',
+    role: 'Developer and Data Analysis Trainee',
+    company: 'Khwarizm, Cairo',
     period: 'Dec 2025 – Present',
     status: 'in-progress',
     bullets: [
-      'Replaced manual processes with automated approval workflows, improving operational clarity for internal business systems.',
-      'Contributed to full-stack development using Django and React.js — building and testing workflow interfaces.',
-      'Performed data analysis and reporting using SQL and Excel; supported stakeholder system demos and process walkthroughs.',
+      'Supported workflow automation and approval process digitization for internal business systems.',
+      'Contributed to Django and React.js development for workflow management interfaces.',
+      'Performed SQL reporting, Excel analysis, and operational data preparation.',
+      'Assisted in documenting workflows and explaining system processes to stakeholders.',
     ],
-    stack: ['Python', 'Django', 'React.js', 'SQL', 'Excel'],
+    stack: ['Python', 'Django', 'React.js', 'SQL', 'Excel', 'Docker', 'Linux', 'Jira'],
   },
 ];
 

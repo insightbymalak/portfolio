@@ -1,6 +1,6 @@
 # Malak Hussein
 
-**Junior ERP & Operations Associate**
+**ERP & Data Operations Associate**
 
 Maadi, Cairo — Available on-site & hybrid in New Cairo, Nasr City, and the New Capital
 
@@ -10,26 +10,29 @@ Maadi, Cairo — Available on-site & hybrid in New Cairo, Nasr City, and the New
 
 ## Professional Summary
 
-Information Systems graduate with hands-on exposure to ERP systems, SQL, Excel, and workflow automation. Experienced in supporting business process digitization, data preparation, and operational reporting. Contributed to full-stack internal systems development using Django and React.js during an active software internship. Currently deepening knowledge in Odoo customization and implementation to contribute meaningfully to ERP projects. Eager to support teams in moving from manual processes to structured, efficient digital workflows.
+Information Systems graduate with experience supporting reporting, internal systems, and workflow digitization using SQL, Excel, Django, and React.js. Interested in data analysis and ERP systems, with current hands-on learning in Odoo customization and business workflows. Focused on helping teams organize processes, improve reporting, and move manual operations into more efficient digital systems.
 
 ---
 
 ## Experience
 
-**Software Intern**
+**Developer and Data Analysis Trainee**
 Khwarizm — Software Consulting, Cairo
 *December 2025 – Present*
 
-- Replaced manual processes with automated approval workflows, improving operational clarity for internal business systems
-- Contributed to full-stack development using Django and React.js — building and testing workflow management interfaces
-- Performed data analysis and reporting using SQL and Excel; supported stakeholder system demos and process walkthroughs
-- Assisted in documenting business processes and system workflows to support team alignment and user onboarding
+- Supported workflow automation and approval process digitization for internal business systems
+- Contributed to Django and React.js development for workflow management interfaces
+- Performed SQL reporting, Excel analysis, and operational data preparation
+- Assisted in documenting workflows and explaining system processes to stakeholders
 
-*Technologies used: Python, Django, React.js, SQL, Excel*
+*Technologies: Python, Django, React.js, SQL, Excel, Docker, Linux, Jira*
 
 ---
 
 ## Education
+
+**Data Analysis Diploma** *(In Progress)*
+Currently enrolled — 2025 – Present
 
 **Bachelor's Degree in Information Systems**
 Future University in Egypt
@@ -40,23 +43,24 @@ Future University in Egypt
 ## Technical Skills
 
 **Data & Reporting**
-Microsoft Excel, Pivot Tables, VLOOKUP, Power Query, SQL (SELECT, JOIN, GROUP BY, Subqueries), Data Validation & Cleaning, Power BI (Basic Dashboards), Pandas
+SQL (SELECT, JOIN, GROUP BY, Subqueries), Microsoft Excel, Pivot Tables, VLOOKUP, Power Query, Data Cleaning & Validation, Pandas, Power BI
 
 **ERP & Business Systems**
-Odoo (Modules, Models, Views, ORM, Constraints), ERP Workflow Configuration, Business Process Documentation, CRM Workflow Support
+Odoo (Modules, Models, Views, ORM), ERP Workflow Configuration, Business Process Documentation, CRM Workflows
 
 **Development & Tools**
-Python, Django, React.js, Git, Linux (Command Line), Docker (Basic Usage)
+Python, Django, React.js, Git, Docker, Linux, Jira
 
 **Operations & Process**
-Workflow Digitization, Business Process Mapping, Stakeholder Communication, Operational Reporting, KPI Tracking
+Workflow Digitization, Process Mapping, Stakeholder Communication, Operational Reporting, KPI Tracking
 
 ---
 
 ## Projects
 
 **Odoo Real Estate Module** — *April 2026*
-Custom Odoo module developed during the Odoo Technical Bootcamp as a hands-on learning project.
+Custom Odoo module built during the Odoo Technical Bootcamp.
+
 - Built property listing and sales tracking views with custom workflow stages
 - Practiced Odoo model inheritance, field types, and relational data (Many2one, One2many)
 - Applied business logic using @api.constrains to enforce pricing and offer validation rules
@@ -71,23 +75,22 @@ Repository: https://github.com/insightbymalak/OdooWorkShop/wiki
 | Certification | Issuer | Date |
 |---|---|---|
 | Odoo Technical Bootcamp | Odoo | April 2026 |
-| CCNA — Introduction to Networks | Cisco | March 2024 |
 | Intermediate SQL | DataCamp | 2025 |
 | Learning the OWASP Top 10 | LinkedIn Learning | 2025 |
 | Skills That Set Data Scientists Apart | LinkedIn Learning | 2025 |
+| CCNA — Introduction to Networks | Cisco | March 2024 |
 | Certificate of Completion | Google Developer Student Clubs | 2024 |
 
 ---
 
-## Key Competencies
+## Core Competencies
 
-- ERP system support and configuration (Odoo)
 - SQL querying and data extraction for business reporting
-- Data cleaning and transformation using Excel and Power Query
+- Data cleaning and transformation using Excel, Power Query, and Pandas
+- ERP system support and Odoo module configuration
 - Workflow documentation and business process mapping
-- Supporting digital transformation and system implementation projects
-- Clear communication with both technical teams and non-technical stakeholders
-- Fast learner with a practical, operationally minded approach
+- Full-stack support experience with Django and React.js
+- Clear communication with technical teams and non-technical stakeholders
 
 ---
 
